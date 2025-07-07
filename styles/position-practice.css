@@ -1,0 +1,169 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.modal {
+  margin-left: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.paragraph {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.button {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lay {
+  position: fixed;
+  background-color: white;
+  color: black;
+  top: 200px;
+  bottom: 240px;
+  width: 500px;
+  border-radius: 5px;
+}
+.top {
+  position: fixed;
+  top: 0px;
+  bottom: 340px;
+  left: 0px;
+  right: 0px;
+}
+
+.facebook {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  height: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  width: 200px;
+}
+
+.profilepic {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.profileimage {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.user {
+  color: black;
+  font-weight: bold;
+}
+
+.buttonss {
+  display: flex;
+  flex-direction: row;
+}
+
+.add {
+  color: white;
+  background-color: rgb(24, 119, 242);
+  padding-bottom: 8px;
+  padding-top: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.message {
+  color: black;
+  background-color: rgb(137, 143, 156);
+  padding-bottom: 8px;
+  padding-top: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.sidebarflex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.sideimages {
+  width: 40px;
+  border-radius: 50%;
+  margin-top: 5px;
+}
+
+.firstsidebar {
+  position: fixed;
+  top: 60px;
+  bottom: 100px;
+  left: 0;
+  right: 660px;
+  background-color: #2c2f33;
+}
+
+.text {
+  color: gray;
+  padding-bottom: 10px;
+}
+
+.info {
+  color: white;
+  font-size: 14px;
+}
+
+.plus {
+  color: gray;
+  font-size: 20px;
+}
+
+.sidebarflex2 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.firsttext {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 140px;
+  margin-bottom: 10px;
+}
+
+.secondsidebar {
+  position: fixed;
+  top: 60px;
+  bottom: 100px;
+  left: 58px;
+  right: 500px;
+  background-color: #3f4346;
+}
