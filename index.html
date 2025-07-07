@@ -7,21 +7,20 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
   <title>
-    Youtube Clone
+    Youtube
   </title>
   <link rel="stylesheet" href="/styles/video.css">
   <link rel="stylesheet" href="/styles/header.css">
   <link rel="stylesheet" href="/styles/general.css">
   <link rel="stylesheet" href="/styles/sidebar.css">
   <link rel="icon" type="image/x-icon" href="/favicon_io/favicon.ico">
-
   <script src="/javascript.js" defer></script>
 </head>
 
 <body class="">
   <header class="header">
-    <div class="left-section"><button class="toggle"> <img class="hamburger-menu" src="/icon/hamburger-menu.svg"
-          alt=""></button>
+    <div class="left-section"><button name="hamburger" class="toggle"> <img class="hamburger-menu"
+          src="/icon/hamburger-menu.svg" alt=""></button>
 
       <img class="youtubelogo" src="/icon/youtube-logo.svg" alt="">
     </div>
@@ -35,7 +34,7 @@
       </button>
     </div>
     <div class="right-section">
-      <button id="theme-switch">
+      <button name="theme" id="theme-switch">
         <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3">
           <path
             d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Z" />
@@ -68,26 +67,26 @@
   <div class="sidebarrelative">
     <div class="sidemenu">
       <div class="sidebar">
-        <div class="sidebar-link"><img src="/icon/home.svg" alt="">
+        <div class="sidebar-link"><img src="/icon/home.svg" alt=" side">
           <div>Home</div>
         </div>
-        <div class="sidebar-link"><img src="/icon/explore.svg" alt="">
+        <div class="sidebar-link"><img src="/icon/explore.svg" alt="side">
           <div>Explore</div>
         </div>
 
-        <div class="sidebar-link"><img src="/icon/subscriptions.svg" alt="">
+        <div class="sidebar-link"><img src="/icon/subscriptions.svg" alt="side">
           <div>Subscriptions</div>
         </div>
 
-        <div class="sidebar-link"><img src="/icon/originals.svg" alt="">
+        <div class="sidebar-link"><img src="/icon/originals.svg" alt="side">
           <div>Originals</div>
         </div>
 
-        <div class="sidebar-link"><img src="/icon/youtube-music.svg" alt="">
+        <div class="sidebar-link"><img src="/icon/youtube-music.svg" alt="side">
           <div>Youtube Music</div>
         </div>
 
-        <div class="sidebar-link"><img src="/icon/library.svg" alt="">
+        <div class="sidebar-link"><img src="/icon/library.svg" alt="side">
           <div>Library</div>
         </div>
 
@@ -98,13 +97,13 @@
   <div class="video-grid">
     <div class="div-thumb">
       <div class="thumbnail-row"><a href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
-          <img class="thumbnail" src="/thumbnails/thumbnail-1.webp"></a>
+          <img class="thumbnail" src="/thumbnails/thumbnail-1.webp" alt="thumb"></a>
         <div class="video-time">14:20</div>
       </div>
 
       <div class="video-info-grid">
         <div class="channelpicture"> <a href="https://www.youtube.com/c/mkbhd"><img class="profilepicture"
-              src="/channel-pictures/channel-1.jpeg" alt=""></a>
+              src="/channel-pictures/channel-1.jpeg" alt="channel"></a>
         </div>
         <div class="videoinfo">
           <p class="title"><a href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
@@ -125,13 +124,13 @@
 
     <div class="div-thumb">
       <div class="thumbnail-row"><a href="https://www.youtube.com/watch?v=mP0RAo9SKZk"> <img class="thumbnail"
-            src="/thumbnails/thumbnail-2.webp"></a>
+            src="/thumbnails/thumbnail-2.webp" alt="thumb"></a>
         <div class="video-time">8:22</div>
       </div>
 
       <div class="video-info-grid">
         <div class="channelpicture"><a href="https://www.youtube.com/c/markiplier"> <img class="profilepicture"
-              src="/channel-pictures/channel-2.jpeg" alt=""></a>
+              src="/channel-pictures/channel-2.jpeg" alt="channel"></a>
         </div>
         <div class="videoinfo">
           <p class="title"><a href="https://www.youtube.com/watch?v=mP0RAo9SKZk"> Try Not To Laugh Challenge #9</a></p>
@@ -145,13 +144,13 @@
     </div>
     <div class="div-thumb">
       <div class="thumbnail-row"><a href="https://www.youtube.com/watch?v=FgjPQQeTh1w"><img class="thumbnail"
-            src="/thumbnails/thumbnail-3.webp"></a>
+            src="/thumbnails/thumbnail-3.webp" alt="thumb"></a>
         <div class="video-time">9:13</div>
       </div>
 
       <div class="video-info-grid">
         <div class="channelpicture"><a href="https://www.youtube.com/user/SSSniperWolf"> <img class="profilepicture"
-              src="/channel-pictures/channel-3.jpeg" alt=""></a>
+              src="/channel-pictures/channel-3.jpeg" alt="channel"></a>
         </div>
         <div class="videoinfo">
           <p class="title"><a href="https://www.youtube.com/watch?v=FgjPQQeTh1w"> Crazy Tik Toks Taken Moments Before
@@ -167,13 +166,13 @@
 
     <div class="div-thumb">
       <div class="thumbnail-row"><a href="https://www.youtube.com/watch?v=094y1Z2wpJg"> <img class="thumbnail"
-            src="/thumbnails/thumbnail-4.webp"></a>
+            src="/thumbnails/thumbnail-4.webp" alt="thumb"></a>
         <div class="video-time">22:09</div>
       </div>
 
       <div class="video-info-grid">
         <div class="channelpicture"><a href="https://www.youtube.com/c/veritasium"> <img class="profilepicture"
-              src="/channel-pictures/channel-4.jpeg" alt=""></a>
+              src="/channel-pictures/channel-4.jpeg" alt="channel"></a>
         </div>
         <div class="videoinfo">
           <p class="title"><a href="https://www.youtube.com/watch?v=094y1Z2wpJg"> The Simplest Math Problem No One Can
@@ -188,13 +187,13 @@
     </div>
     <div class="div-thumb">
       <div class="thumbnail-row"> <a href="https://www.youtube.com/watch?v=86CQq3pKSUw"><img class="thumbnail"
-            src="/thumbnails/thumbnail-5.webp"></a>
+            src="/thumbnails/thumbnail-5.webp" alt="thumb"></a>
         <div class="video-time">11:17</div>
       </div>
 
       <div class="video-info-grid">
         <div class="channelpicture"><a href="https://www.youtube.com/c/CSDojo"> <img class="profilepicture"
-              src="/channel-pictures/channel-5.jpeg" alt=""></a>
+              src="/channel-pictures/channel-5.jpeg" alt="channel"></a>
         </div>
         <div class="videoinfo">
           <p class="title"><a href="https://www.youtube.com/watch?v=86CQq3pKSUw"> Kadane's Algorithm to Maximum Sum
@@ -210,13 +209,13 @@
 
     <div class="div-thumb">
       <div class="thumbnail-row"><a href="https://www.youtube.com/watch?v=yXWw0_UfSFg"> <img class="thumbnail"
-            src="/thumbnails/thumbnail-6.webp"></a>
+            src="/thumbnails/thumbnail-6.webp" alt="thumb"></a>
         <div class="video-time">19:59</div>
       </div>
 
       <div class="video-info-grid">
         <div class="channelpicture"><a href="https://www.youtube.com/channel/UCX6OQ3DkcsbYNE6H8uQQuVA"> <img
-              class="profilepicture" src="/channel-pictures/channel-6.jpeg" alt=""></a>
+              class="profilepicture" src="/channel-pictures/channel-6.jpeg" alt="channel"></a>
         </div>
         <div class="videoinfo">
           <p class="title"><a href="https://www.youtube.com/watch?v=yXWw0_UfSFg"> Anything You Can Fit In The Circle
